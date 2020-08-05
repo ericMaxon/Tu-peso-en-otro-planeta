@@ -3,8 +3,8 @@
 -Jose Perez
 -Daniel Downs
 -Eric Mason
-*/
-/*ADOO
+
+*						ADOO
 *       SistemaSolar
 *------------------------
 *-masa
@@ -62,7 +62,7 @@ class Main {
     String[] opciones1 = {"Peso","Edad","Salir"};
     String[] opciones = {"Mercurio", "Venus", "Marte", "Júpiter", "Saturno", "Urano", "Neptuno"};
     
-     //                  Mercurio Venus Marte Júpiter Saturno Urano Neptuno
+    //                    Mercurio Venus Marte Júpiter Saturno Urano Neptuno
     double planetasP[] = {0.39, 0.87, 0.38,  2.55,  0.93,  0.99, 1.38};
     double planetasE[] = {4.19, 1.62, 0.53, 0.084, 0.034, 0.012, 0.006};
     
@@ -156,6 +156,6 @@ class Main {
            }
         break;
       }
-    }while(seleccion!=3);
+    }while(seleccion!=0);
     }
   }
